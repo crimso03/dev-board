@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <script src="https://kit.fontawesome.com/bdaeeca2b3.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-[#f5f7ff] min-h-screen p-7">
+    <!-- nav -->
+  <div class="flex justify-between items-center p-5 bg-white rounded-2xl mb-8">
+    <div class="flex items-center gap-2">
+      <img src="assets/logo.png" alt="" class="w-10">
+      <h1 class="text-2xl">Dev<span class="font-bold">Board</span></h1>
+    </div>
+    <div class="flex items-center gap-4">
+      <button id="back-btn" class="bg-blue-600  text-white text-base p-2 rounded-md all-btn">Back to Desk</button>
+    </div>
+  </div>
+  <h2 class="text-center font-bold text-2xl mb-5">Blogs</h2>
+  <main>
+    <div class="mb-2 ">
+      <p class="bg-white p-3 font-semibold ">Question-1: What are the different ways to select an element in the DOM?</p>
+      <p class="bg-white p-3 ">getElementById, getElementByClassName, querySelector, querySelectorAll.</p>
+    
+    </div>
+    <div class="mb-2 ">
+      <p class="bg-white p-3 font-semibold ">Question-2: What is the difference between innerHTML, innerText, and textContent ?</p>
+      <p class="bg-white p-3 ">innerHTML work with HTML and tags. <br>
+      innerText work with only visible text.<br>
+      textContent work with all text, ignoring CSS styles and hidden content.</p>
+    
+    </div>
+    <div class="mb-2 ">
+      <p class="bg-white p-3 font-semibold">Question-3: What is event delegation in the DOM?</p>
+      <p class="bg-white p-3 ">Event delegation is a technique where a single event listener is added to a parent element to handle events from its child elements through event bubbling.</p>
+    
+    </div>
+    <div class="mb-2 ">
+      <p class="bg-white p-3 font-semibold">Question-4: What is event bubbling in the DOM?</p>
+      <p class="bg-white p-3 ">Event bubbling means the process where an event starts from the target element and moves up to its parent elements.</p>
+    
+    </div>
+    <div class="mb-2 ">
+      <p class="bg-white p-3 font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</p>
+      <p class="bg-white p-3 ">Create = document.createElement.<br>
+        Add = appendChild or append.<br>
+        Remove = remove or removeChild.</p>
+    
+    </div>
+
+
+  </main>
+ 
+<script src="script/back.js"></script>
+</body>
+</html>
